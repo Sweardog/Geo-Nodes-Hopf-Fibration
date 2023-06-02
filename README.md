@@ -9,7 +9,7 @@
 (Math (with LaTeX) and Geometry/Shading Nodes explanation)[https://www.overleaf.com/read/cnchjmcvnpqt]
 
 # **Overview**
-The provided *Hopf Fibration Modifier* is a powerful tool that takes any set of points from a 2-sphere and displays them along with their corresponding Hopf fibers. Although my primary method for generating animations of 2-sphere points has been Python, this modifier isn't tied to a specific approach. Feel free to use any method that fits your needs to animate points on $S^2$.
+The provided *Hopf Fibration Modifier* is a versatile tool, designed to recieve any set of points of $S^2$ and color-cordingly display them along with their corresponding Hopf fibers. Although my primary method for generating animations of 2-sphere points has been Python, this modifier isn't tied to a specific approach. Feel free to use any method that fits your needs to animate points on $S^2$.
 
 ## **Creating Animations**
 
