@@ -23,11 +23,11 @@ In the "*Geometry Nodes*" workspace, there's a wire leading from the "*Group Inp
 
 ## **Running Python Animations**
 
-If you want to explore animations, ensure the "*___SphereAnimations*" file is open in the text editor in the "*Scripting*" workspace. This file contains helper functions and various algorithms, each producing a unique animation. To cause the interpreter to ignore these pieces of code, these algorithms are enclosed in triple quotes.
+If you want to explore animations with python, ensure the "*___SphereAnimations*" file is open in the text editor in the "*Scripting*" workspace. This file contains helper functions and various algorithms, each producing a unique animation. To cause the interpreter to ignore these pieces of code, these algorithms are enclosed in triple quotes.
 
 To run a specific algorithm, remove the triple quotes and select the "*Scene Collection*" in the "*Outliner*" panel to make it active. Then, press the "*Run Script*" button at the top of the text editor or use the *Alt-P* shortcut. This will generate a new collection within the "*Scene Collection*", containing all the objects required for the animation, along with the dummy object. The geometry of the dummy object now represents the final animation.
 
-**Note:** I've included ample comments within the Python scripts to aid in understanding how these animations are generated. Enjoy exploring the fascinating world of Hopf fibers!
+**Note:** I've included many comments within the Python scripts to aid in understanding how these animations are generated. Enjoy exploring the fascinating world of Hopf fibers!
 
 ## **Contributions**
 I'll be happy if anyone sees this project and wants to add a contribution! Some ideas: reduce number of nodes, alter node layout/wiring structure, simplify python algorithms, submit your own python animation, correct my grammar, math, etc...
