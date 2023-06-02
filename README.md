@@ -3,7 +3,7 @@
 (DETAILED Geometry and Shading Nodes explanation)[https://www.overleaf.com/read/cnchjmcvnpqt]
 (DETAILED Geometry and Shading Nodes explanation)[https://www.overleaf.com/read/cnchjmcvnpqt]
 
-# **Helpful Link**
+# **In-Depth Mathematical and Node Structure Insights**
 (Math (with LaTeX) and Geometry/Shading Nodes explanation)[https://www.overleaf.com/read/cnchjmcvnpqt]
 
 # **Overview**
