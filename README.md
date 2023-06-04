@@ -17,7 +17,7 @@ Once your animation is complete, feed the points into the *Hopf Fibration Modifi
 
 ## **Exploring a UV-Sphere's Hopf Fibers**
 
-If you want to explore a basic UV-sphere's Hopf fibers without python animations, you can do this with the "Dummy Hopf Mod Object", located in the scene collection's main collection (named so as its input geometry is ignored). For a dummy object, I prefer to use a primitive vert mesh object, enabled via the built-in add-on "*Add Mesh: Extra Objects*". This object is equipped with the *Hopf Fibration Modifier* and within the modifier's "*Geometry Nodes*" workspace, connect the "*UV Sphere*" mesh output wire from the pink box to the "*Merge by Distance*" node's "*Geometry*" input. This should display the UV-sphere's points and their corresponding Hopf fibers.
+If you want to explore the Hopf fibers of a basic UV-sphere without Python animations, you can use the "Dummy Hopf Mod Object" located in the scene collection's main collection. The purpose of the existence of the dummy objects in thw main collection is to unorphanize their equipped modifiers. I recommend unaltering these modifiers, so I suggest creating a copy of the "Dummy Hopf Mod Object" to have a copy modifier on a copy object. In the copy modifier's "Geometry Nodes" workspace, connect the "UV Sphere" mesh output wire from the pink box to the "Merge by Distance" node's "Geometry" input. This setup will display a UV-sphere's points and their corresponding Hopf fibers.
 
 ## **Sphere Rotation**
 
@@ -25,14 +25,15 @@ In the "*Hopf Fibration Modifier*", there's a wire leading from the "*Group Inpu
 
 ## **Running Provided Python Animations**
 
-If you want to explore animations with python, ensure the "*___SphereAnimations*" file is open in the text editor in the "*Scripting*" workspace. This file contains helper functions and various algorithms, each producing a unique animation. To cause the interpreter to ignore these pieces of code, these algorithms are enclosed in triple quotes.
+If you want to explore animations with python, ensure the "*___SphereAnimations*" file is open in the text editor in the "*Scripting*" workspace. You may also run into errors for my algorithms if you don't enable "*Add Mesh: Extra Objects*" and "*Add Curve: Extra Objects*". This text file contains helper functions towards the top and various algorithms below, each producing a unique animation. To cause the interpreter to ignore these pieces of code, these algorithms are enclosed in triple quotes.
 
 To run a specific algorithm, remove the triple quotes and select the "*Scene Collection*" in the "*Outliner*" panel to make it active. Then, press the "*Run Script*" button at the top of the text editor or use the *Alt-P* shortcut. This will generate a new collection within the "*Scene Collection*", containing all the objects required for the animation, along with the dummy object. The geometry of the dummy object now represents the final animation.
 
 **Note:** I've included many comments within the Python scripts to aid in understanding how these animations are generated. Enjoy exploring the fascinating world of Hopf fibers!
 
 ## **Contributions**
-I'll be happy if anyone sees this project and wants to add a contribution! I think there might be an issue with the orphanization of the node groups as I can't seem to get the "white blobs" next to the node groups within the "Outliner" panel to turn blue like how they normally are. I'm suspiciuos about the number of nodes used in the "Sphere Rainbow" material's upper path. Aside from the flipping of the x coordinate when I instance the dots of $S^2$, I believe the Hopf Fibration modifier has very few unnecessary nodes. Some other ideas other than reducing the number of nodes: alter node layout/wiring structure, simplify python algorithms, submit your own python animation, correct my grammar, math, etc...
+
+If anyone would like to contribute to this project, you are more than welcome! I suspect that the number of nodes used in the "Sphere Rainbow" material's upper path can be reduced. Apart from flipping the x coordinate when instancing the dots of S^2, I believe the Hopf Fibration modifier has very few unnecessary nodes. Some other ideas for contributions include: altering the node layout/wiring structure, simplifying/troubleshooting Python algorithms, submitting your own Python animation, and correcting grammar, math, etc...
 
 
 
