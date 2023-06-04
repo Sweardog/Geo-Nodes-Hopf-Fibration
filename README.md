@@ -11,11 +11,11 @@
 [Math (with LaTeX) and Geometry/Shading Nodes explanation](https://www.overleaf.com/read/cnchjmcvnpqt)
 
 # **Overview**
-The provided *Hopf Fibration Modifier* is a versatile tool, designed to receive any set of points of $S^2$ and color-coordinate them along with their corresponding Hopf fibers. Although my primary method for generating animations of 2-sphere points has been Python, this modifier isn't tied to a specific approach. Feel free to use any method that fits your needs to animate points of $S^2$.
+The provided ***Hopf Fibration Modifier*** is a versatile tool, designed to receive any set of points of $S^2$ and color-coordinate them along with their corresponding Hopf fibers. Although my primary method for generating animations of 2-sphere points has been Python, this modifier isn't tied to a specific approach. Feel free to use any method that fits your needs to animate points of $S^2$.
 
 ## **Creating Animations**
 
-Once your animation is complete, feed the points into the *Hopf Fibration Modifier*. For animations involving a single object, use the modifier's **Object Info** node. If your animation includes multiple objects, first group them into a collection and then feed this collection into the modifier's **Collection Info** node.
+Once your animation is complete, feed the points into the ***Hopf Fibration Modifier***. For animations involving a single object, use the modifier's **Object Info** node. If your animation includes multiple objects, first group them into a collection and then feed this collection into the modifier's **Collection Info** node.
 
 ## **Exploring a UV-Sphere's Hopf Fibers**
 
@@ -23,7 +23,7 @@ If you want to explore the Hopf fibers of a basic UV-sphere without Python anima
 
 ## **Sphere Rotation**
 
-In the **Hopf Fibration Modifier**, there's a wire leading from the **Group Input** to the **Transform Geometry** node's **Rotation** input. This allows you to manipulate the sphere's rotation around the x, y, or z axis directly from the editor's **Modifier Properties** panel.
+In the ***Hopf Fibration Modifier***, there's a wire leading from the **Group Input** to the **Transform Geometry** node's **Rotation** input. This allows you to manipulate the sphere's rotation around the x, y, or z axis directly from the editor's **Modifier Properties** panel.
 
 ## **Running Provided Python Animations**
 
@@ -35,7 +35,7 @@ To run a specific algorithm, remove the triple quotes and select the **Scene Col
 
 ## **Contributions**
 
-If anyone would like to contribute to this project, you are more than welcome! I suspect that the number of nodes used in the **Sphere Rainbow** material's upper path can be reduced. Apart from flipping the x-coordinate when instancing the dots of S^2, I believe the Hopf Fibration modifier has very few unnecessary nodes. Some other ideas for contributions include altering the node layout/wiring structure, simplifying/troubleshooting Python algorithms, submitting your own Python animation, and correcting grammar, math, etc...
+If anyone would like to contribute to this project, you are more than welcome! I suspect that the number of nodes used in the **Sphere Rainbow** material's upper path can be reduced. Apart from flipping the x-coordinate when instancing the dots of S^2, I believe the ***Hopf Fibration Modifier*** has very few unnecessary nodes. Some other ideas for contributions include altering the node layout/wiring structure, simplifying/troubleshooting Python algorithms, submitting your own Python animation, and correcting grammar, math, etc...
 
 
 
