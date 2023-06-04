@@ -35,7 +35,7 @@ To run a specific algorithm, remove the triple quotes and select the **Scene Col
 
 ## **Contributions**
 
-If anyone would like to contribute to this project, you are more than welcome! I suspect that the number of nodes used in the "Sphere Rainbow" material's upper path can be reduced. Apart from flipping the x-coordinate when instancing the dots of $S^2$, I believe the Hopf Fibration modifier has very few unnecessary nodes. Some other ideas for contributions include altering the node layout/wiring structure, simplifying/troubleshooting Python algorithms, submitting your own Python animation, and correcting grammar, math, etc...
+If anyone would like to contribute to this project, you are more than welcome! I suspect that the number of nodes used in the "Sphere Rainbow" material's upper path can be reduced. Apart from flipping the x-coordinate when instancing the dots of S^2, I believe the Hopf Fibration modifier has very few unnecessary nodes. Some other ideas for contributions include altering the node layout/wiring structure, simplifying/troubleshooting Python algorithms, submitting your own Python animation, and correcting grammar, math, etc...
 
 
 
