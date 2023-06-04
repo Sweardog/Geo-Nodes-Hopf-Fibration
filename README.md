@@ -19,7 +19,7 @@ Once your animation is complete, feed the points into the *Hopf Fibration Modifi
 
 ## **Exploring a UV-Sphere's Hopf Fibers**
 
-If you want to explore the Hopf fibers of a basic UV-sphere without Python animations, you can use the "Dummy Hopf Mod Object" located in the scene collection's main collection. The purpose of the existence of the dummy objects in the main collection is to unorphanize their equipped modifiers. I recommend unaltering these modifiers, so I suggest creating a copy of the "Dummy Hopf Mod Object" to have a copy modifier on a copy object. In the copy modifier's "Geometry Nodes" workspace, connect the "UV Sphere" mesh output wire from the pink box to the "Merge by Distance" node's "Geometry" input. This setup will display a UV-sphere's points and their corresponding Hopf fibers.
+If you want to explore the Hopf fibers of a basic UV-sphere without Python animations, you can use the **Dummy Hopf Mod Object** located in the scene collection's main collection. The purpose of the existence of the dummy objects in the main collection is to unorphanize their equipped modifiers. I recommend unaltering these modifiers, so I suggest creating a copy of the **Dummy Hopf Mod Object** to have a copy modifier on a copy object. In the copy modifier's **Geometry Nodes** workspace, connect the **UV Sphere** mesh output wire from the pink box to the **Merge by Distance** node's **Geometry** input. This setup will display a UV-sphere's points and their corresponding Hopf fibers.
 
 ## **Sphere Rotation**
 
@@ -35,7 +35,7 @@ To run a specific algorithm, remove the triple quotes and select the **Scene Col
 
 ## **Contributions**
 
-If anyone would like to contribute to this project, you are more than welcome! I suspect that the number of nodes used in the "Sphere Rainbow" material's upper path can be reduced. Apart from flipping the x-coordinate when instancing the dots of S^2, I believe the Hopf Fibration modifier has very few unnecessary nodes. Some other ideas for contributions include altering the node layout/wiring structure, simplifying/troubleshooting Python algorithms, submitting your own Python animation, and correcting grammar, math, etc...
+If anyone would like to contribute to this project, you are more than welcome! I suspect that the number of nodes used in the **Sphere Rainbow** material's upper path can be reduced. Apart from flipping the x-coordinate when instancing the dots of S^2, I believe the Hopf Fibration modifier has very few unnecessary nodes. Some other ideas for contributions include altering the node layout/wiring structure, simplifying/troubleshooting Python algorithms, submitting your own Python animation, and correcting grammar, math, etc...
 
 
 
