@@ -9,7 +9,7 @@
 * [Detailed Explanation of Math (in LaTeX) and Geometry/Shading Nodes](https://www.overleaf.com/read/cnchjmcvnpqt)
 
 ## Overview
-The "Hopf Fibration Modifier" is a versatile tool, designed to display any set of points of ($S^2$) along with their corresponding Hopf fibers in a color-coordinated manner. My primary method for generating animations of $S^2$ points used is Python. However, this modifier is not restricted to any particular approach. Feel free to use any method that suits your requirements to animate points of $S^2$.
+The "Hopf Fibration Modifier" is a versatile tool, designed to display any set of points of $S^2$ along with their corresponding Hopf fibers in a color-coordinated manner. My primary method for generating animations of $S^2$ points used is Python. However, this modifier is not restricted to any particular approach. Feel free to use any method that suits your requirements to animate points of $S^2$.
 
 ## Displaying Animations Without Python
 1. After completing your animation, create a copy of the "Hopf Fibration Dummy Object" object. 
