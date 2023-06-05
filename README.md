@@ -14,7 +14,7 @@ The "Hopf Fibration Modifier" is a versatile tool, designed to display any set o
 ## Displaying Animations Without Python
 1. After completing your animation, create a copy of the "Hopf Fibration Dummy Object" object. 
 2. Navigate to this copy object's geometry nodes workspace to modify the copied modifier, which, unless named otherwise, should be named "Hopf Fibration Modifier.001". 
-3. Feed the animated 2-sphere points into this copy modifier. 
+3. Feed the animated points of $S^2$ into this copy modifier. 
    * If your animation involves a single object, use the modifier's "Object Info" node.
    * If your animation includes multiple objects, first group them into a collection and then feed this collection into the modifier's "Collection Info" node. 
 4. Ensure the output wire of the correct Info node ultimately leads into the "Merge by Distance" node, with the Collection Info instances needing to be realized initially.
