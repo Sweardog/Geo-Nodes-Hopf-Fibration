@@ -1,5 +1,4 @@
-# Blender Geometry Nodes: Hopf Fibration w/ Python Animations
-# 3.5.1 Tested 
+# Blender Geometry Nodes: Hopf Fibration w/ Python Animations (3.5.1 Tested)
 
 ## Renders of Python Animations (Still Cooking)
 * [My Favorite](https://www.overleaf.com/read/cnchjmcvnpqt)
@@ -26,8 +25,10 @@ In the "Hopf Fibration Modifier", a wire leads from the "Group Input" to the "Tr
 ## Running Provided Python Animations
 1. If you want to explore animations with Python, firstensure the "___SphereAnimations" file is open in the text editor in the "Scripting" workspace. 
 2. Ensure that the built in add-ons "Add Mesh: Extra Objects" and "Add Curve: Extra Objects" are enabled. 
+
 ***Note***: This text file contains helper functions towards the top and various algorithms below, each producing a unique animation. These algorithms are enclosed in triple quotes to prevent their execution. 
 3. To run a specific algorithm, remove the triple quotes and select the "Scene Collection" in the "Outliner" panel to make it active. Then, press the "Run Script" button at the top of the text editor or use the "Alt-P" shortcut. This will generate a new collection within the "Scene Collection", which I name "Stuff", containing all the objects required for the animation, along with the dummy object. The geometry and name of the dummy object now represents the final animation.
+
 ***Note***: The Python scripts contain many comments to aid in understanding how these animations are generated. Enjoy exploring the fascinating world of Hopf fibers!
 
 ## Contributions
