@@ -38,7 +38,9 @@ In the "Hopf Fibration Modifier", a wire leads from the "Group Input" to the "Tr
 ## Contributions
 If you would like to contribute to this project, you're more than welcome! Possible contributions include reducing the number of nodes used in the "Sphere Rainbow" material's upper path, altering the node layout/wiring structure, simplifying/troubleshooting Python algorithms, submitting your own Python animation, and correcting grammar, math, formatting, etc.
 
-## Tips
+## Donations 
+If you appreciate this project and would like to leave a tip:
+
 * Ethereum Address: 0x8D9c56b61e4F7d2d77f24d0e7274Ec1caFd0246C
 
 * Venmo: @Adam-Swearingen-1
