@@ -1,6 +1,6 @@
 # Blender Geometry Nodes: Hopf Fibration w/ Python Animations (3.5.1 Tested)
 
-## Renders of Python Animations (Still Cooking)
+## Renders of Python Animations 
 * [My Favorite](https://imgur.com/sJMVRzE)
 * [Second Favorite](https://imgur.com/4EQyjGZ)
 * [Third Favorite](https://imgur.com/ZjD5ThF)
@@ -39,10 +39,13 @@ In the "Hopf Fibration Modifier", a wire leads from the "Group Input" to the "Tr
 If you would like to contribute to this project, you're more than welcome! Possible contributions include reducing the number of nodes used in the "Sphere Rainbow" material's upper path, altering the node layout/wiring structure, simplifying/troubleshooting Python algorithms, submitting your own Python animation, and correcting grammar, math, formatting, etc.
 
 ## Tips
-Ethereum Address: 0x8D9c56b61e4F7d2d77f24d0e7274Ec1caFd0246C
-Venmo: @Adam-Swearingen-1
-PayPal: paypal.me/abswearingen97
-Cash App: $adamswear
+* Ethereum Address: 0x8D9c56b61e4F7d2d77f24d0e7274Ec1caFd0246C
+
+* Venmo: @Adam-Swearingen-1
+
+* PayPal: paypal.me/abswearingen97
+
+* Cash App: $adamswear
 
 
 
