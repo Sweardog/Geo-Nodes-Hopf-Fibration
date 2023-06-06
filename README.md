@@ -41,13 +41,13 @@ If you would like to contribute to this project, you're more than welcome! Possi
 ## Donations 
 If you appreciate this project and would like to leave a tip:
 
-    * Ethereum Address: 0x8D9c56b61e4F7d2d77f24d0e7274Ec1caFd0246C
+**Ethereum Address:** 0x8D9c56b61e4F7d2d77f24d0e7274Ec1caFd0246C
 
-    * Venmo: @Adam-Swearingen-1
+**Venmo:** @Adam-Swearingen-1
 
-    * PayPal: paypal.me/abswearingen97
+**PayPal:** paypal.me/abswearingen97
 
-    * Cash App: $adamswear
+**Cash App:** $adamswear
 
 
 
