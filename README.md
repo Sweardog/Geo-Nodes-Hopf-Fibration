@@ -9,7 +9,7 @@
 * [Detailed Explanation of Math (in LaTeX) and Geometry/Shading Nodes](https://www.overleaf.com/read/cnchjmcvnpqt)
 
 ## Overview
-The "Hopf Fibration Modifier" is a versatile tool, designed to display any set of points of $S^2$ along with their corresponding Hopf fibers in a color-coordinated manner. My primary method for generating animations of $S^2$ points used is Python. However, this modifier is not restricted to any particular approach. Feel free to use any method that suits your requirements to animate points of $S^2$. In the primary collectiom of the "Scene Collection", there exist certain "Dummy" objects. Their function is to prevent the modifiers from being orphaned, by keeping them in active use. It's advised to interact with duplicates of the "Hopf Fibration Modifier" as this action ensures its original state remains unchanged.
+The "Hopf Fibration Modifier" is a versatile tool, designed to display any set of points of $S^2$ along with their corresponding Hopf fibers in a color-coordinated manner. My primary method for generating animations of $S^2$ points used is Python. However, this modifier is not restricted to any particular approach. Feel free to use any method that suits your requirements to animate points of $S^2$. In the main "Collection" within the "Scene Collection", there exist certain "Dummy" objects. Their function is to prevent the modifiers from being orphaned, by keeping them in active use. It's advised to interact with duplicates of the "Hopf Fibration Modifier" as this action ensures its original state remains unchanged.
 
 ## Exploring a UV-Sphere (No Animations Required)
 1. Create a copy of the "Hopf Fibration Dummy Object" object, locatied in the main collection. Store this copy wherever you please. 
